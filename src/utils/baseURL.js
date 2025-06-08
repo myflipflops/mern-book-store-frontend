@@ -7,7 +7,7 @@ const getBaseUrl = () => {
   if (process.env.NODE_ENV === 'production' || window.location.hostname !== 'localhost') {
     // If in production, return the URL of your DEPLOYED BACKEND API.
     // This has been updated with your provided backend URL.
-    return 'https://parags-mern-backend.vercel.app';
+    return 'https://mern-backend-dusky-eta.vercel.app/';
   } else {
     // If in development (running on your local machine), return the local backend URL.
     return 'http://localhost:5000';
